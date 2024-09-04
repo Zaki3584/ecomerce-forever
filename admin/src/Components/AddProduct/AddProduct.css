@@ -1,0 +1,83 @@
+.add_product{
+    display: flex;
+    flex-direction: column;
+    padding-top:8px;
+    margin-left: 30px;
+    width: 95%;
+    height: max-content;
+    text-align: start;
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+}
+.images-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+ p{
+    font-size: 18px;
+    padding: 8px 0px;
+    margin: 0;
+}
+.images-section img{
+    width: 150px;
+}
+input,textarea{
+    padding: 8px 8px;
+    width: 90%;
+    border: 1px solid #9b9b9b;
+    font-size:  medium;
+    resize: vertical;
+}
+.product-info-csp{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+}
+.product-info-csp p{
+    font-size: 16px;
+}
+select{
+    padding: 8px 8px;
+    font-size:16px ;
+    color: #505050;
+}
+.price{
+    padding: 8px 8px;
+    width: 120px;
+    color: #9b9b9b;
+}
+.size{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.btn-size{
+    padding: 6px 8px;
+}
+.product-bstSell{
+    display: flex;
+    gap: 5px;
+}
+.checkbox{
+    width: 15px;
+}
+.btn-add{
+    width: 130px;
+    padding: 12px;
+    margin-top: 10px;
+    color: white;
+    background: #000;
+    font-size: 15px;
+}
+@media (max-width:800px) {
+    .images-section img{
+        width: 100px;
+    }
+    .add_product{
+        margin-left: 10px;
+    }
+}

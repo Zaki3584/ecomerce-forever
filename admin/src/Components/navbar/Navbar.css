@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 10px 5px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo{
+    width: 140px;
+}
+.btn-out{
+    padding: 10px 32px;
+    border-radius: 20px;
+    font-size: medium;
+    background: #3c3a3a;
+    color: white;
+    border: none;
+}
+
+@media (max-width:800px) {
+    .nav-logo{
+        width: 105px;
+    }
+    
+}
